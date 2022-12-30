@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>starter file</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@500&family=Source+Serif+Pro&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="letter-l.png" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="btn clear-btn">
+        <i class="fas fa-trash"></i>
+        clear cards
+      </button>
+
+      <div class="inner-container">
+        <h2 class="header">
+          memory cards
+          <button class="btn add-btn">
+            <i class="fas fa-plus"></i>
+            add new card
+          </button>
+        </h2>
+
+        <div class="card-container">
+          <!-- <div class="card active-card">
+            <div class="inner-card">
+              <div class="front-card">
+                <p>when</p>
+              </div>
+              <div class="back-card">
+                <p>now</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="inner-card">
+              <div class="front-card">
+                <p>where</p>
+              </div>
+              <div class="back-card">
+                <p>here</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="inner-card">
+              <div class="front-card">
+                <p>why</p>
+              </div>
+              <div class="back-card">
+                <p>why not</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="inner-card">
+              <div class="front-card">
+                <p>what is javascript</p>
+              </div>
+              <div class="back-card">
+                <p>it's a programming language</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="inner-card">
+              <div class="front-card">
+                <p>what is html</p>
+              </div>
+              <div class="back-card">
+                <p>it's a markup language</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="inner-card">
+              <div class="front-card">
+                <p>what is vscods</p>
+              </div>
+              <div class="back-card">
+                <p>it's a programming tool</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="navigation">
+          <i class="fas fa-arrow-left prev"></i>
+          <p class="current-page"></p>
+          <i class="fas fa-arrow-right next"></i>
+        </div>
+      </div>
+      <div class="addnewcard-container">
+        <div class="headertwo">
+          <h2>add new card</h2>
+          <p class="close-add">X</p>
+        </div>
+        <div class="input-div">
+          <label for="question">question</label>
+          <textarea
+            id="question"
+            cols="10"
+            rows="5"
+            placeholder="enter question..."
+          ></textarea>
+        </div>
+        <div class="input-div">
+          <label for="answer">answer</label>
+          <textarea
+            id="answer"
+            cols="10"
+            rows="5"
+            placeholder="enter answer..."
+          ></textarea>
+        </div>
+
+        <button class="btn add-card-btn">
+          <i class="fas fa-plus"></i>
+          add card
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
